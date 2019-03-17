@@ -1,0 +1,31 @@
+Question:
+    Stanford students are known to possess a sense of intellectual vitality. 
+    Tell us about an idea or experience that you found intellectually engaging. (300 word limit)
+
+Essay:
+
+Question:
+    The lessons we take from obstacles we encounter can be fundamental to later success. 
+    Recount a time when you faced a challenge, setback, or failure. 
+    How did it affect you and what did you learn from the experience? (300 word limit)
+
+Ideas:
+    2018 Motion profiling versus pure pursuit
+    2017 as a whole
+
+Essay:
+    Throughout 2018 robotics season, we programmed the drivetrain of our robot during the autonomous period 
+    using PID.
+    PID worked by looking at how many rotations our wheels have turned so far versus how many rotations we 
+    want to go. 
+    Then, it would calculate a voltage to the drivetrain to correct for the distance. 
+    This method worked well, and even took us to the World Championships in Houston. 
+    However, this method wasn't perfect, and its flaws set us back throughout the season.
+    One of the major setbacks of this system was the fact that it would reset the sensors after every path.
+    Because of this, if we were not perfectly in the place that we intended to be at the end of the path, 
+    we would continue with this error for the rest of the autonomous period.
+    This made high point scoring autonomous periods impossible throughout the season. 
+    After the season, I knew I had to address this issue before next year.
+    To fix this issue, I researched an algorithm known as Pure Pursuit.
+    Pure Pursuit for a Differential Drive base works by constantly keeping track of the robot's position 
+    on the field. 
